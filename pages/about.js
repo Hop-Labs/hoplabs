@@ -1,6 +1,6 @@
 import Image from "next/image";
 import MainNav from "./nav";
-import Footer from "./Footer";
+import Footer from "./footer";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faLink } from "@fortawesome/free-solid-svg-icons";
