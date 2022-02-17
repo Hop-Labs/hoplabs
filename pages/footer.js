@@ -12,14 +12,14 @@ export default function Footer() {
               <div className="flex space-x-4">
                 <a
                   target="_blank"
-                  className="cursor-pointer ml-2 font-bold py-2 px-4 rounded-full border-2 border-black transform hover:scale-110 motion-reduce:transform-none"
+                  className="cursor-pointer ml-2 font-bold py-2 px-4 rounded-full border-2 border-black transform hover:scale-110 motion-reduce:transform-none dark:border-white"
                   href="https://github.com/Hop-Labs"
                   rel="noreferrer"
                 >
                   <FontAwesomeIcon icon={faGithub} /> Github{" "}
                   <FontAwesomeIcon icon={faExternalLinkAlt} />
                 </a>
-                <a
+                {/* <a
                   target="_blank"
                   className="cursor-pointer ml-2 font-bold py-2 px-4 rounded-full text-white bg-blue-500 hover:bg-blue-600 transform hover:scale-110 motion-reduce:transform-none"
                   href=""
@@ -27,7 +27,7 @@ export default function Footer() {
                 >
                   <FontAwesomeIcon icon={faLinkedin} /> LinkedIn{" "}
                   <FontAwesomeIcon icon={faExternalLinkAlt} />
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
@@ -45,7 +45,7 @@ export default function Footer() {
             <FontAwesomeIcon icon={faGithub} /> Github{" "}
             <FontAwesomeIcon icon={faExternalLinkAlt} />
           </a>
-          <a
+          {/* <a
             target="_blank"
             className="text-gray-300 hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium"
             href=""
@@ -53,7 +53,7 @@ export default function Footer() {
           >
             <FontAwesomeIcon icon={faLinkedin} /> LinkedIn{" "}
             <FontAwesomeIcon icon={faExternalLinkAlt} />
-          </a>
+          </a> */}
         </div>
       </div>
     </nav>
