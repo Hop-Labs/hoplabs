@@ -2,8 +2,11 @@
 
 ## Contributors
 ```
-Chinat Yu (cyu60) - Founder
-Sebastian Cabrejos (boccca2014) - Founding Member
+Chinat Yu (cyu60) - Founder & Lead
+Sebastian Cabrejos (boccca2014) - Founding Member & Web Developer
+Matthew Liu - Founding Member
+Dr. Ali Madooei - Advisor
+Dr. Anton Dahbura - Advisor
 ```
 
 ## Local Development
