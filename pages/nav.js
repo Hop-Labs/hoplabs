@@ -3,6 +3,8 @@ import Link from "next/link";
 // import styles from "../styles/global.css";
 // import useDarkMode from "./useDarkMode";
 import { useTheme } from "next-themes";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHome } from "@fortawesome/free-solid-svg-icons";
 
 export default function MainNav() {
   const { theme, setTheme } = useTheme();
@@ -19,23 +21,20 @@ export default function MainNav() {
             <div className="hidden sm:block sm:ml-6">
               <div className="flex space-x-4">
                 <Link href="/" passHref>
-                  <span className="text-2xl font-serif cursor-pointer hover:scale-110 motion-reduce:transform-none">
-                    HopLabs
+                  <span className="text-4xl font-serif cursor-pointer hover:scale-110 motion-reduce:transform-none">
+                    <FontAwesomeIcon icon={faHome} />
                   </span>
                 </Link>
                 <Link href="/about" passHref>
-                  <span className="cursor-pointer bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded-full transform hover:scale-110 motion-reduce:transform-none">
+                  <span className="cursor-pointer bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-4 rounded-full transform hover:scale-110 motion-reduce:transform-none">
                     About
                   </span>
                 </Link>
-                {/* <Link
-                  href="/files/???"
-                  passHref
-                >
-                  <span className="cursor-pointer bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded-full transform hover:scale-110 motion-reduce:transform-none">
-                    Resources
+                <Link href="/join" passHref>
+                  <span className="cursor-pointer bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-6 rounded-full transform hover:scale-110 motion-reduce:transform-none">
+                    Join
                   </span>
-                </Link> */}
+                </Link>
                 <button
                   aria-label="Toggle Dark Mode"
                   type="button"
@@ -75,24 +74,21 @@ export default function MainNav() {
       </div>
 
       <div className="sm:hidden" id="mobile-menu">
-        <div className="px-2 pt-2 pb-3 space-y-1">
+        <div className="px-2 pt-2 pb-3 space-y-1 text-center">
           <Link href="/" passHref>
             <span className="cursor-pointer text-gray-300 hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium">
-              Home
+              <FontAwesomeIcon icon={faHome} />
             </span>
           </Link>
 
-          <Link href="/portfolio" passHref>
+          <Link href="/about" passHref>
             <span className="cursor-pointer text-gray-300 hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium">
-              Portfolio
+              About
             </span>
           </Link>
-          <Link
-            href="/files/Cabrejos_Sebastian_Resume_Online.pdf#zoom=auto"
-            passHref
-          >
+          <Link href="/about" passHref>
             <span className="cursor-pointer text-gray-300 hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium">
-              Resume
+              Join
             </span>
           </Link>
         </div>
