@@ -16,7 +16,7 @@ export default function Home() {
           support, such as 3D modeling and animations that also require specific
           expertise. Our hope is that this hub will help to promote
           multidisciplinary collaborations between students and schools in line
-          withJohns Hopkins University&rsquo;s goals.
+          with Johns Hopkins University&rsquo;s goals.
         </p>
 
         <h1 className="text-3xl font-bold font-serif py-5">Current Projects</h1>
