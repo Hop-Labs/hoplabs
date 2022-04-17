@@ -10,11 +10,10 @@ export default function Home() {
       <main className="text-center items-center py-5">
         <h1 className="text-3xl font-bold font-serif"> Hop Labs </h1>
         <p className="text-xl pt-5 md:px-96">
-          Hop Labs is an initiative to create a platform and hub for shared
-          resources between different student groups. This would range from
-          specific technical help such as software expertise to more creative
-          support, such as 3D modeling and animations that also require specific
-          expertise. Our hope is that this hub will help to promote
+          Hop Labs is a hub shared resources between different Computer Science
+          - Oriented projects. It ranges from specific technical help such as
+          software expertise to more creative support, such as 3D modeling and
+          animations. Our hope is that this hub will promote
           multidisciplinary collaborations between students and schools in line
           with Johns Hopkins University&rsquo;s goals.
         </p>
