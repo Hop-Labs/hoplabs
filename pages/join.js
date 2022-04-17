@@ -11,12 +11,12 @@ export default function Join() {
           Interested in adding your project to the list? Fill out the form
           below!
         </p>
-          <iframe
-            className="w-screen h-screen"
-            src="https://docs.google.com/forms/d/e/1FAIpQLSfYXjcdGOK2p6rc4cuySaKEwxt4ONvueOEu-1VIqkj6Us_rOg/viewform?embedded=true"
-            width="640"
-            height="1000"
-          ></iframe>
+        <iframe
+          className="w-screen h-screen"
+          src="https://docs.google.com/forms/d/e/1FAIpQLSfYXjcdGOK2p6rc4cuySaKEwxt4ONvueOEu-1VIqkj6Us_rOg/viewform?embedded=true"
+          width="640"
+          height="1000"
+        ></iframe>
       </div>
       <Footer />
     </div>
