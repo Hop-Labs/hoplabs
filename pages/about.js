@@ -31,17 +31,6 @@ export default function About() {
           while fostering more multi-disciplinary collaboration within the JHU
           community.
         </p>
-        <p className="text-xl pt-5 md:px-52 py-5 text-center font-mono">
-          More Information can be found{" "}
-          <a
-            target="_blank"
-            href="https://cutt.ly/Hoplabs"
-            className="font-medium text-blue-400"
-            rel="noreferrer"
-          >
-            here
-          </a>
-        </p>
       </div>
       <div>
         <h1 className="text-3xl font-serif flex justify-center py-5">
@@ -73,27 +62,6 @@ export default function About() {
         <div className="flex flex-col justify-center items-center">
           <Image
             className="rounded-full"
-            src="/profiles/placeholder-profile.png"
-            alt="1"
-            width={150}
-            height={150}
-          />
-          <h1 className="text-xl font-semibold">Dr. Ali Madooei</h1>
-          <h1 className="text-base">Advisor</h1>
-          <h1 className="text-3xl font-semibold">
-            <a
-              className="px-2"
-              target="_blank"
-              href="https://www.linkedin.com/in/alimadooei/"
-              rel="noreferrer"
-            >
-              <FontAwesomeIcon icon={faLinkedin} />
-            </a>
-          </h1>
-        </div>
-        <div className="flex flex-col justify-center items-center">
-          <Image
-            className="rounded-full"
             src="/profiles/SC.jpg"
             alt="1"
             width={150}
@@ -102,13 +70,6 @@ export default function About() {
           <h1 className="text-xl font-semibold">Sebastian Cabrejos</h1>
           <h1 className="text-base">Founding Member</h1>
           <h1 className="text-3xl font-semibold">
-            <a
-              target="_blank"
-              href="https://github.com/Boccca2014"
-              rel="noreferrer"
-            >
-              <FontAwesomeIcon icon={faGithub} />
-            </a>
             <a
               className="px-2"
               target="_blank"
@@ -139,16 +100,30 @@ export default function About() {
           <h1 className="text-base">Founding Member</h1>
           <h1 className="text-3xl font-semibold">
             <a
-              target="_blank"
-              href="https://github.com/MattLiu-mygit"
-              rel="noreferrer"
-            >
-              <FontAwesomeIcon icon={faGithub} />
-            </a>
-            <a
               className="px-2"
               target="_blank"
               href="https://www.linkedin.com/in/matthew-liu-75a09b137/"
+              rel="noreferrer"
+            >
+              <FontAwesomeIcon icon={faLinkedin} />
+            </a>
+          </h1>
+        </div>
+        <div className="flex flex-col justify-center items-center">
+          <Image
+            className="rounded-full"
+            src="/profiles/placeholder-profile.png"
+            alt="1"
+            width={150}
+            height={150}
+          />
+          <h1 className="text-xl font-semibold">Dr. Ali Madooei</h1>
+          <h1 className="text-base">Advisor</h1>
+          <h1 className="text-3xl font-semibold">
+            <a
+              className="px-2"
+              target="_blank"
+              href="https://www.linkedin.com/in/alimadooei/"
               rel="noreferrer"
             >
               <FontAwesomeIcon icon={faLinkedin} />
